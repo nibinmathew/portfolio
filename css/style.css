@@ -497,7 +497,10 @@ li > a:only-child:after {
     }
 }
 
-
+/*-- Em --*/
+em{
+    font-style:normal;
+}
 
 /*-- popup --*/
 
@@ -563,6 +566,16 @@ li > a:only-child:after {
 /*-- //banner --*/
 
 /*-- /extra skills --*/
+h2.title {
+    font-size: 4em;
+    text-align: center;
+    color: #242425;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
 
 h3.agile_tittle.two {
     color: #252525;
@@ -582,16 +595,27 @@ h3.title span {
     display: block;
 }
 
-h3.title span.ab {
+h2.title span.ab {
     display: block;
     font-size: 0.3em;
+}
+h2.intr.ser {
+    color: #484d55;
+}
+h2.intr {
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 0.25em;
+    font-size: 1.9em;
+    margin-bottom: 2em;
 }
 
 #about {
     background: #d63031;
 }
 
-h2.main_head,
+p.emp,
 h3.main_head {
     font-weight: 700;
     color: #fff;
@@ -689,6 +713,7 @@ h6.intr {
 }
 
 .service-content h4,
+.service-content h6,
 .service-content h2 {
     font-size: 1em;
     line-height: 1.5em;
@@ -1389,6 +1414,7 @@ a.move-top span {
         padding: 1em 1em 1em 1em;
     }
     .service-content h4,
+    .service-content h6,
     .service-content h2 {
         font-size: 0.9em;
     }
