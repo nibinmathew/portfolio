@@ -563,6 +563,16 @@ li > a:only-child:after {
 /*-- //banner --*/
 
 /*-- /extra skills --*/
+h2.title {
+    font-size: 4em;
+    text-align: center;
+    color: #242425;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
 
 h3.agile_tittle.two {
     color: #252525;
