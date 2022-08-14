@@ -497,7 +497,10 @@ li > a:only-child:after {
     }
 }
 
-
+/*-- Em --*/
+em{
+    font-style:normal;
+}
 
 /*-- popup --*/
 
