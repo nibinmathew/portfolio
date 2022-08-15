@@ -64,7 +64,9 @@ ul {
     padding: 0;
 }
 
+
 /*-- header --*/
+
 
 /* CSS Document */
 
@@ -79,13 +81,13 @@ header {
     display: none;
 }
 
+
 /* Giving a background-color to the nav container. */
 
 nav {
     margin: 0;
     padding: 0;
 }
-
 
 #logo-w3layouts a {
     float: left;
@@ -109,6 +111,7 @@ nav:after {
     clear: both;
 }
 
+
 /* Removing padding, margin and "list-style" from the "ul",
  * and adding "position:reltive" */
 
@@ -120,6 +123,7 @@ nav ul {
     position: relative;
 }
 
+
 /* Positioning the navigation items inline */
 
 nav ul li {
@@ -127,6 +131,7 @@ nav ul li {
     display: inline-block;
     float: left;
 }
+
 
 /* Styling the links */
 
@@ -142,10 +147,10 @@ nav a {
     text-transform: uppercase;
 }
 
-
 nav ul li ul li:hover {
     background: #f8f9fa;
 }
+
 
 /* Background color change on Hover */
 
@@ -156,6 +161,7 @@ nav a:hover {
 .menu li.active a {
     color: #d63031;
 }
+
 
 /* Hide Dropdowns by Default
  * and giving it a position of absolute */
@@ -169,11 +175,13 @@ nav ul ul {
     padding: 10px;
 }
 
+
 /* Display Dropdowns on Hover */
 
-nav ul li:hover > ul {
+nav ul li:hover>ul {
     display: inherit;
 }
+
 
 /* Fisrt Tier Dropdown */
 
@@ -190,6 +198,7 @@ nav ul ul li a {
     display: block;
 }
 
+
 /* Second, Third and more Tiers	
  * We move the 2nd and 3rd etc tier dropdowns to the left
  * by the amount of the width of the first tier.
@@ -205,7 +214,7 @@ nav ul ul ul li {
 
 /* Change ' +' in order to change the Dropdown symbol */
 
-li > a:only-child:after {
+li>a:only-child:after {
     content: '';
 }
 
@@ -214,7 +223,6 @@ li > a:only-child:after {
 --------------------------------------------- */
 
 @media all and (max-width: 768px) {
-
     #logo-w3layouts {
         display: block;
         padding: 0;
@@ -222,18 +230,15 @@ li > a:only-child:after {
         text-align: center;
         float: none;
     }
-
     nav {
         margin: 0;
     }
-
     /* Hide the navigation menu by default */
     /* Also hide the  */
-    .toggle + a,
+    .toggle+a,
     .menu {
         display: none;
     }
-
     /* Stylinf the toggle lable */
     .toggle {
         display: block;
@@ -258,41 +263,34 @@ li > a:only-child:after {
         font-size: 16px;
         letter-spacing: 1px;
     }
-
     .toggle:hover {
         color: #333;
         background-color: #fff;
     }
-
     /* Display Dropdown when clicked on Parent Lable */
-    [id^=drop]:checked + ul {
+    [id^=drop]:checked+ul {
         display: block;
         background: rgba(16, 16, 16, 0.85);
         padding: 15px 0;
         text-align: center;
     }
-
     /* Change menu item's width to 100% */
     nav ul li {
         display: block;
         width: 100%;
         padding: 5px 0;
     }
-
     nav ul ul .toggle,
     nav ul ul a {
         padding: 0 40px;
     }
-
     nav ul ul ul a {
         padding: 0 80px;
     }
-
     nav a:hover,
     nav ul ul ul a {
         background-color: transparent;
     }
-
     nav ul li ul li .toggle,
     nav ul ul a,
     nav ul ul ul a {
@@ -300,13 +298,10 @@ li > a:only-child:after {
         color: #FFF;
         font-size: 17px;
     }
-
-
     nav ul li ul li .toggle,
     nav ul ul a {
         background-color: #212121;
     }
-
     /* Hide Dropdowns by Default */
     nav ul ul {
         float: none;
@@ -314,20 +309,17 @@ li > a:only-child:after {
         color: #ffffff;
         /* has to be the same number as the "line-height" of "nav a" */
     }
-
     /* Hide menus on hover */
-    nav ul ul li:hover > ul,
-    nav ul li:hover > ul {
+    nav ul ul li:hover>ul,
+    nav ul li:hover>ul {
         display: none;
     }
-
     /* Fisrt Tier Dropdown */
     nav ul ul li {
         display: block;
         width: 100%;
         padding: 0;
     }
-
     nav ul ul ul li {
         position: static;
         /* has to be the same number as the "width" of "nav ul ul li" */
@@ -339,15 +331,15 @@ li > a:only-child:after {
 }
 
 @media all and (max-width: 330px) {
-
     nav ul li {
         display: block;
         width: 94%;
     }
-
 }
 
+
 /* header */
+
 
 /*-- banner --*/
 
@@ -391,12 +383,12 @@ li > a:only-child:after {
     letter-spacing: 9px;
 }
 
-
 .banner-info-w3ls a:hover {
     background: #00cec9;
     color: #fff;
     border: transparent;
 }
+
 
 /* image layers effect */
 
@@ -415,7 +407,7 @@ li > a:only-child:after {
 
 .icon-scroll {
     position: absolute;
-    bottom: -29%;
+    bottom: -22%;
     left: 50%;
     width: 1em;
     height: 3.125em;
@@ -478,7 +470,6 @@ li > a:only-child:after {
         opacity: 1;
         transform: translateY(0);
     }
-
     100% {
         opacity: 0;
         transform: translateY(.375em);
@@ -497,10 +488,13 @@ li > a:only-child:after {
     }
 }
 
+
 /*-- Em --*/
-em{
-    font-style:normal;
+
+em {
+    font-style: normal;
 }
+
 
 /*-- popup --*/
 
@@ -540,7 +534,6 @@ em{
 .popup h2 {
     margin-top: 0;
     color: #fff;
-
 }
 
 .popup .close {
@@ -561,11 +554,15 @@ em{
 
 /*-- //popup --*/
 
+
 /* //image layers effect */
+
 
 /*-- //banner --*/
 
+
 /*-- /extra skills --*/
+
 h2.title {
     font-size: 4em;
     text-align: center;
@@ -575,7 +572,6 @@ h2.title {
     text-align: left;
     text-transform: uppercase;
 }
-
 
 h3.agile_tittle.two {
     color: #252525;
@@ -599,9 +595,11 @@ h2.title span.ab {
     display: block;
     font-size: 0.3em;
 }
+
 h2.intr.ser {
     color: #484d55;
 }
+
 h2.intr {
     text-align: center;
     color: #fff;
@@ -653,7 +651,9 @@ p.main_p {
     background: #1f232b;
 }
 
+
 /*-- // about --*/
+
 
 /*-- //wedo --*/
 
@@ -752,7 +752,6 @@ p.serp {
     font-size: 15px;
 }
 
-
 .ser-lt {
     padding: 0;
 }
@@ -781,7 +780,9 @@ p.main_p3 {
     line-height: 1.5em;
 }
 
+
 /* //services */
+
 
 /*-- experience --*/
 
@@ -837,7 +838,9 @@ p.main_p3 {
     background: #222;
 }
 
+
 /*-- //experience --*/
+
 
 /*-- text --*/
 
@@ -846,7 +849,6 @@ h5.w3ls-title {
     font-size: 3em;
     margin-bottom: 10px;
     letter-spacing: 1px;
-
 }
 
 .mid {
@@ -861,6 +863,7 @@ h5.w3ls-title {
 }
 
 a.work,
+button.work,
 a.hire:hover {
     padding: 12px 35px;
     color: #00b894;
@@ -874,6 +877,7 @@ a.hire:hover {
 }
 
 a.work:hover,
+button.work:hover,
 a.hire {
     background: #2d3436;
     border: 2px solid #2d3436;
@@ -886,7 +890,9 @@ a.hire {
     border-radius: 4px;
 }
 
+
 /*-- //text --*/
+
 
 /*-- blog -*/
 
@@ -968,7 +974,9 @@ h4.left-grid-blog {
     margin-bottom: .7em;
 }
 
+
 /*-- //blog -*/
+
 
 /*-- /gallery --*/
 
@@ -980,7 +988,9 @@ section#gallery {
     padding: 0px;
 }
 
+
 /*-- //gallery --*/
+
 
 /*-- /testimonials --*/
 
@@ -1022,7 +1032,9 @@ section#gallery {
     margin-top: 1em;
 }
 
+
 /*-- //testimonials --*/
+
 
 /*--  contact --*/
 
@@ -1123,7 +1135,9 @@ section#gallery {
     resize: none;
 }
 
+
 /*-- // contact --*/
+
 
 /*-- footer --*/
 
@@ -1201,14 +1215,16 @@ a.move-top span {
     -moz-border-radius: 4px;
 }
 
+
 /*-- //footer --*/
 
+
 /*-- Responsive Design --*/
+
 
 /*--responsive--*/
 
 @media(max-width:1440px) {
-
     .banner-info-w3ls {
         padding-top: 16em;
         width: 70%;
@@ -1258,7 +1274,6 @@ a.move-top span {
     }
     .popup {
         width: 40%;
-
     }
 }
 
@@ -1294,7 +1309,6 @@ a.move-top span {
         padding-top: 14em;
         width: 83%;
     }
-
 }
 
 @media(max-width:900px) {
@@ -1307,7 +1321,6 @@ a.move-top span {
     }
     .popup {
         width: 60%;
-
     }
 }
 
@@ -1325,7 +1338,6 @@ a.move-top span {
         font-size: 2.8em;
     }
 }
-
 
 @media(max-width:736px) {
     .banner-info-w3ls h1 {
@@ -1369,7 +1381,6 @@ a.move-top span {
     }
     .popup {
         width: 94%;
-
     }
 }
 
@@ -1428,7 +1439,6 @@ a.move-top span {
     .exp-grid1 h4 {
         font-size: 1.1em;
     }
-
     h5.w3ls-title {
         font-size: 2.5em;
         letter-spacing: 1px;
@@ -1528,5 +1538,6 @@ a.move-top span {
         width: 96%;
     }
 }
+
 
 /*--//responsive--*/
