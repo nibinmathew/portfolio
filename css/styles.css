@@ -548,6 +548,10 @@ input[type='checkbox'] {
 
 /******************/
 
+h3 {
+    font-size: 22px
+}
+
 .header {
     padding-top: 7rem;
     padding-bottom: 5.5rem;
@@ -1330,6 +1334,15 @@ a:hover.back-to-top {
         margin-left: 2.875rem;
     }
     /* end of extra pages */
+}
+
+.side-title {
+    margin-left: 10px;
+    padding: 12px 0 32px 0;
+}
+
+.side-sec {
+    border-left: #c0c2c5 solid 1px;
 }
 
 
