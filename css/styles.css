@@ -1347,3 +1347,28 @@ a:hover.back-to-top {
 
 
 /* end of min-width 1200px */
+
+.header .fa-stack {
+    width: 2em;
+    margin-bottom: 1.25rem;
+    margin-right: 0.375rem;
+    font-size: 1.5rem;
+}
+
+.header .fa-stack .fa-stack-1x {
+    color: #ffffff;
+    transition: all 0.2s ease;
+}
+
+.header .fa-stack .fa-stack-2x {
+    color: #555658;
+    transition: all 0.2s ease;
+}
+
+.header .fa-stack:hover .fa-stack-1x {
+    color: #555658;
+}
+
+.header .fa-stack:hover .fa-stack-2x {
+    color: #ffffff;
+}
